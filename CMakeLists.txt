@@ -7,5 +7,5 @@ find_package(X11 REQUIRED)
 link_libraries(${X11_LIBRARIES})
 include_directories(${X11_INCLUDE_DIR})
 
-set(SOURCE_FILES main.cpp event_manager.cpp)
+set(SOURCE_FILES main.cpp)
 add_executable(xlib_example ${SOURCE_FILES})
