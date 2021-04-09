@@ -7,7 +7,7 @@ Tested on Ubuntu OS 20.04 version.
 2. Move to repository folder
 `cd XlibTriangleWindow`
 3. Build C++ project
-`mkdir build && cmake .. && make`
+`mkdir -p build && cd build && cmake .. && make`
 4. Launch program
 `./xlib_example`
 
